@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8">
+		<title>1.VI Basics of HTML</title>
+	</head>
+	<body>
+        <form action="Sign_up_form.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="firstName">First Name</label><br>
+                <input type="text" name="firstName" required/><br>
+                <label for="lastName">Last Name</label><br>
+                <input type="text" name="lastName" required/><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" required/><br>
+                <label for"birthday">Birthday</label><br>
+                <input type="date" name="birthday" max="2016-03-23" required/><br>
+                <label for="favourite_sport">Favourite sport</label><br>
+                <select name="favourite_sport">
+                    <option value="football">Football</option>
+                    <option value="volleyball">Volleyball</option>
+                    <option value="tennis">Tennis</option>
+                    <option value="hockey">Hockey</option>
+                </select><br>
+                <label for="about_you">Please say something about you</label><br>
+                <textarea name="about_you"></textarea>
+            </fieldset>
+            <input type="submit" value="Send"/>
+            <input type="button" value="Clear"/>
+        </form>
+    </body>
+</html>
+
+<!-- Create a "sign up" form with fields for:
+- first name
+- last name 
+- email 
+- birthday
+- dropdown to choose your favourite sport
+- text-area to include a small bio for the user.
+
+Add a button at the end to submit the form, and another one to clear the form. 
+
+Add relevant validation rules for all fields (like required fields, valid email). -->
